@@ -17,53 +17,53 @@ Game.Piece = function(type) {
 Game.Piece.DEF = {
 	"o": {
 		color: "#333",
-		avail: 3,
+		avail: 20,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(0, -1), new XY(-1, -1)]
 	},
 	"i": {
 		color: "#6cf",
-		avail: 3,
+		avail: 30,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(1, 0), new XY(-2, 0)]
 	},
 	"s": {
 		color: "#6c0",
-		avail: 2,
+		avail: 10,
 		cells: [new XY(0, 0), new XY(1, 0), new XY(0, -1), new XY(-1, -1)]
 	},
 	"z": {
 		color: "#ff3",
-		avail: 2,
+		avail: 10,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(0, -1), new XY(1, -1)]
 	},
 	"l": {
 		color: "#f93",
-		avail: 2,
+		avail: 20,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(1, 0), new XY(-1, -1)]
 	},
 	"j": {
 		color: "#939",
-		avail: 2,
+		avail: 20,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(1, 0), new XY(1, -1)]
 	},
 	"t": {
 		color: "#c33",
-		avail: 3,
+		avail: 10,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(1, 0), new XY(0, -1)]
 	},
 /***/
 	"-": {
 		color: "#fff",
-		avail: 3,
+		avail: 10,
 		cells: [new XY(0, 0), new XY(-1, 0)]
 	},
 	"+": {
 		color: "#f9c",
-		avail: 2,
+		avail: 0,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(1, 0), new XY(0, -1), new XY(0, 1)]
 	},
 	"u": {
 		color: "#963",
-		avail: 1,
+		avail: 0,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(-1, 1), new XY(1, 0), new XY(1, -1)]
 	}
 }
