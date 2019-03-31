@@ -58,12 +58,12 @@ Game.Piece.DEF = {
 	},
 	"+": {
 		color: "#f9c",
-		avail: 0,
+		avail: 1,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(1, 0), new XY(0, -1), new XY(0, 1)]
 	},
 	"u": {
 		color: "#963",
-		avail: 0,
+		avail: 1,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(-1, 1), new XY(1, 0), new XY(1, -1)]
 	}
 }

@@ -60,7 +60,8 @@ Game.Gallery.prototype._buildPiece = function(type, index) {
 	
 	var num = index+1;
 	if (num == 10) { num = 0; }
-	var text = "(" + (num) + ") Available: ";
+//yjhu	var text = "(" + (num) + ") Available: ";
+	var text = "Available: ";
 	node.appendChild(document.createTextNode(text));
 	
 	var amount = document.createElement("span");
