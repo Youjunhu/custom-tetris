@@ -27,27 +27,27 @@ Game.Piece.DEF = {
 	},
 	"s": {
 		color: "#6c0",
-		avail: 10,
+		avail: 30,
 		cells: [new XY(0, 0), new XY(1, 0), new XY(0, -1), new XY(-1, -1)]
 	},
 	"z": {
 		color: "#ff3",
-		avail: 10,
+		avail: 30,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(0, -1), new XY(1, -1)]
 	},
 	"l": {
 		color: "#f93",
-		avail: 20,
+		avail: 30,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(1, 0), new XY(-1, -1)]
 	},
 	"j": {
 		color: "#939",
-		avail: 20,
+		avail: 30,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(1, 0), new XY(1, -1)]
 	},
 	"t": {
 		color: "#c33",
-		avail: 10,
+		avail: 30,
 		cells: [new XY(0, 0), new XY(-1, 0), new XY(1, 0), new XY(0, -1)]
 	},
 /***/
